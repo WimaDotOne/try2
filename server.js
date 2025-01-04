@@ -8,5 +8,5 @@ exp.get("/api", (req, res) => {
   res.json({message: "Hello from express"})
 })
 
-const PORT = 5000
+const PORT = 3001
 exp.listen(PORT)
